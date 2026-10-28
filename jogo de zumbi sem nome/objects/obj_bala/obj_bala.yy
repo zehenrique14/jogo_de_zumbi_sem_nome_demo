@@ -3,6 +3,7 @@
   "%Name":"obj_bala",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"obj_zumbi","path":"objects/obj_zumbi/obj_zumbi.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
   "name":"obj_bala",
@@ -30,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_bala",
-    "path":"sprites/spr_bala/spr_bala.yy",
+    "name":"spr_chumbo",
+    "path":"sprites/spr_chumbo/spr_chumbo.yy",
   },
   "spriteMaskId":null,
   "visible":true,
