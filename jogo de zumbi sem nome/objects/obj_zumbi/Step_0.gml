@@ -1,9 +1,11 @@
 // Se o player existir, o zumbi persegue a posição vertical dele devagar
-if (instance_exists(obj_player)) {
-    if (y < obj_player.y) {
-        y += 1.5; // Desce em direção ao player
-    } else if (y > obj_player.y) {
-        y -= 1.5; // Sobe em direção ao player
+if (instance_exists(obj_player_fase1)) {
+    if (y < obj_player_fase1.y) {
+       // Desce em direção ao player
+	   y += 1.5; 
+    } else if (y > obj_player_fase1.y) {
+       // Sobe em direção ao player 
+	   y -= 1.5;
     }
 }
 
