@@ -8,5 +8,5 @@ if (dano_cooldown == true){
 
 // Opcional: Se as vidas chegarem a zero, reinicia a fase ou morre
 if (vidas <= 0){
-    room_restart();
+    room_goto(rm_gameover);
 }
